@@ -58,3 +58,8 @@ a:hover {
 b {
     color: red;
 }
+
+iframe {
+    display: block;
+    margin: auto;
+}
