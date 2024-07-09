@@ -1,0 +1,60 @@
+body {
+    background-image: radial-gradient(ellipse at top, #CCDAE0,#EDF2F4);
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    color: #EF233C;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    color: #2B2D42;
+    text-decoration: dotted underline;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+article {
+    border: solid black 1px;
+}
+
+img {
+    border: solid 2px #8D99AE;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: right;
+}
+
+a {
+    color: #D90429;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: #2B2D42;
+}
+
+b {
+    color: red;
+}

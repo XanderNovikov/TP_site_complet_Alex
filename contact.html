@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="https://picsum.photos/800/200" alt="">
+        <h1>Bienvenu sur mon site !</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#third">Blog</a></li>
+                <li><a href="">Gallerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <fieldset>
+        <legend>Contact</legend>
+            <form action="myProgram.php" method="post">
+                <div>
+                    <label for="name">Nom</label><b>*</b>
+                    <input type="text" name="name" id="name" required placeholder="Dubois" maxlength="20" minlength="2">
+                </div>
+                <div>
+                    <label for="mail">E-mail</label><b>*</b>
+                    <input type="email" name="mail" id="mail" required placeholder="some@mail.com">
+                </div>
+                <div>
+                    <label for="text">Laissez un commentaire</label><br>
+                    <textarea name="text" id="text" placeholder="Some text" cols="70" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="check">Envoyer une copie par E-mail !</label>
+                    <input type="checkbox" name="check" id="check" checked>
+                </div>
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </form>
+    </fieldset>
+    <footer>
+        <ul>
+            <li><a href="https://google.com">Lien 1</a></li>
+            <li><a href="https://google.com">Lien 2</li>
+            <li><a href="https://google.com">Lien 3</li>
+            <li><a href="https://google.com">Lien 4</li>
+        </ul>
+    </footer>
+</body>
+</html>
